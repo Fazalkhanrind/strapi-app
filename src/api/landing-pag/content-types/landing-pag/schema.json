@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pags",
+  "info": {
+    "singularName": "landing-pag",
+    "pluralName": "landing-pags",
+    "displayName": "Landing Pag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "discerption": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.metadata"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.hero",
+        "blocks.row",
+        "blocks.pricing",
+        "blocks.cta"
+      ]
+    }
+  }
+}

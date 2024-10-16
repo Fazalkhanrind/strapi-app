@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_highlights_service_highlights",
+  "info": {
+    "displayName": "Service_Highlights"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_form_contact_forms",
+  "info": {
+    "displayName": "Contact Form"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "text"
+    },
+    "submit_button": {
+      "type": "string"
+    }
+  }
+}

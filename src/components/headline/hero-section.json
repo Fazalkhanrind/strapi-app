@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_headline_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "subheadline": {
+      "type": "string"
+    },
+    "background_image": {
+      "allowedTypes": [
+        "files",
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "callto_action_button": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
